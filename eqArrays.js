@@ -13,7 +13,6 @@ const eqArrays = function(array1, array2) {
 
   for (i = 0; i< array1.length; i++) {
     for (j = 0; i<array2.length; j++) {
-      // console.log(i);
       if (array1[i] === array2[j]) {
         return true;
       } else {

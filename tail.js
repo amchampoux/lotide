@@ -9,12 +9,9 @@ const assertEqual = function(actual, expected) {
 
 const tail = function(array) {
 
-   return array.slice(1);
+  return array.slice(1);
 
 };
-
-
-
 
 // Test Case: Check the original array
 const words = ["Yo Yo", "Lighthouse", "Labs"];

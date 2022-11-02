@@ -27,7 +27,5 @@ const sentenceB = 'househoo';
 console.log(countLetters(sentenceA));
 console.log(countLetters(sentenceB));
 
-// assert equal call
-// var actual = countLetters(sentenceA);
-// console.log(actual);
+
 

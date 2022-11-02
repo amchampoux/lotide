@@ -6,7 +6,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-const findKeyByValue = function (object, value) {
+const findKeyByValue = function(object, value) {
 
   return Object.keys(object).find(key => object[key] === value);
 

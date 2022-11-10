@@ -26,3 +26,5 @@ console.log(results2);
 assertArraysEqual(takeUntil(data1, x => x < 0), data1); // => false
 assertArraysEqual(takeUntil([], x => x < 0), []); // => true
 assertArraysEqual(takeUntil(['10', '20', '30'], x => x === '20'), ['10', '20', '30']); // => false
+
+module.exports = takeUntil;

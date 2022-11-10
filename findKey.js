@@ -27,6 +27,8 @@ assertEqual(results1, "noma");
 assertEqual(results2, "Akaleri");
 assertEqual(results3, "Blue Hill");
 
+module.exports = findKey;
+
 
 
 

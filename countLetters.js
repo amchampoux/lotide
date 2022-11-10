@@ -19,5 +19,10 @@ const sentenceB = 'househoo';
 console.log(countLetters(sentenceA), {L: 2, H: 1});
 console.log(countLetters(sentenceB));
 
+module.exports = countLetters;
+
+
+
+
 
 

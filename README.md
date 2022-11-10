@@ -38,3 +38,10 @@ The following functions are currently implemented:
 * `map(...)`: takes in an array and a callback and returns a new array based on the results of the callback on each item in the array.
 * `takeUntil(...)`: takes in an array and callback and returns a slice of the array based on the criteria specified in the callback.
 * `without(...)`: takes in a source array and an itemsToRemove arrays and returns only the items from the source array that are not in the itemsToRemove array.
+* `assertEqual(...)`: takes in 2 values and returns true if they are equal and false otherwise.
+* `assertArraysEqual(...)`: takes in 2 arrays and returns true if they are equal and false otherwise.
+* `assertObjectsEqual(...)`: takes in 2 objects and returns true if they are equal and false otherwise.
+* `eqArrays(...)`: takes in 2 arrays and returns true if the arrays are equal and false otherwise.
+* `eqObjects(...)`: takes in 2 objects and return true if they are equal and false otherwise.
+
+

@@ -1,21 +1,5 @@
-const takeUntil = function(array, callback) {
-
-  const results = [];
-  for (let item of array) {
-    if (callback(item) === true) {
-      return results;
-    } else {
-      results.push(item);
-    }
-  }
-  return results;
-};
-
-module.exports = takeUntil;
-
-
-const assertArraysEqual = require('./assertArraysEqual');
-// const takeUntil = require('../takeUntil');
+const assertArraysEqual = require('../assertArraysEqual');
+const takeUntil = require('../takeUntil');
 
 
 const data1 = [1, 2, 5, 7, 2, -1, 2, 4, 5];

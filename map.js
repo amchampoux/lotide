@@ -1,4 +1,4 @@
-const assertArraysEqual = require('./assertArraysEqual');
+const assertArraysEqual = require('./lib/assertArraysEqual');
 
 const words = ["ground", "control", "to", "major", "tom"];
 

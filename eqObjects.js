@@ -9,8 +9,6 @@ const eqObjects = function(object1, object2) {
     if (Array.isArray(object1[obj]) && Array.isArray(object2[obj])) {
       let output = eqArrays(object1[obj], object2[obj]);
       return output;
-      
-      
     } else {
       if (object1[obj] !== object2[obj]) {
         return false;
